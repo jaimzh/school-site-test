@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+
+            <div class="logo">
+                <a href="index.html"> <img src="images/afit-logo.png"></a>
+                <p>AFIT</p>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"> HOME</a></li>
+                    <li><a href="about.html"> ABOUT</a></li>
+                    <li><a href="courses.html"> COURSES</a></li>
+                    <li><a href="blog.html"> BLOG</a></li>
+                    <li><a href="contact.html"> CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+     <!--------------------------- COURSE----------------------->
+
+     <section class="course">
+        <h1>
+            Courses We Offer
+        </h1>
+        <p>
+            Discover a diverse undergraduate program at AFIT, offering a range of courses across Science, Engineering and business.
+             
+        
+        </p>
+
+        <div class="row">
+            <div class="course-column">
+                <h3>Engineering</h3>
+                <p>
+                    &#8226 Civil Eng<br>
+                    &#8226Aerospace Eng.<br>
+                    &#8226 Mechanical Eng.<br>
+                    &#8226 Mechatronics Eng.<br>
+                    &#8226 Automotive Eng,<br>
+                   
+
+                </p>
+            </div>
+            <div class="course-column">
+                <h3>Science</h3>
+                <p>&#8226 Computer Science<br>
+                    &#8226 Physics<br>
+                    &#8226  Mathematics<br>
+                    &#8226 Chemistry<br>
+                    &#8226 Cyber Security<br>
+                </p>
+            </div>
+            <div class="course-column">
+                <h3>Business</h3>
+                <p>
+                    
+
+
+                    &#8226 Marketing<br>
+                    &#8226 Economics<br>
+                    &#8226 International Relations<br>
+                    &#8226 Accounting<br>
+                    &#8226 Business Admin<br>
+                </p>
+            </div>
+        </div>
+    </section>
+<!--------------------------- FACILITIES----------------------->
+<section class="facilities">
+    <h1>
+        Our Facilities
+    </h1>
+    <p>
+        Discover and explore our state of the art facilities from Sports to our top class laboratory
+    </p>
+
+    <div class="row">
+        <div class="facilities-column">
+            <img src="images/facilities.png">
+            <h3>Amazing Recreational Facilities</h3>
+            <p>Embark on a journey of excitement with our incredible sport and recreational facilities, where fitness meets fun</p>
+
+        </div>
+
+        <div class="facilities-column">
+            <img src="images/facilities2.png">
+            <h3>World class Library/Study</h3>
+            <p>
+                Dive into knowledge at our world-class library—a hub of boundless resources, 
+                tranquility, and academic empowerment
+            </p>
+        </div>
+
+        <div class="facilities-column">
+            <img src="images/facilities3.png">
+            <h3>State-of-the-Art Laboratory</h3>
+            <p>Explore innovation in our state-of-the-art laboratory—a dynamic space where cutting-edge research and hands-on learning converge.</p>
+
+        </div>
+        
+        
+    </div>
+ </section>
+
+        
+
+            <!--------------------------- FOOTER----------------------->
+          <section class = "footer">
+            <h4>About US</h4>
+            <p>
+                We offer undergraduate and postgraduate programs in Engineering, science and technology fields relevant to the Nigerian Air Force.
+            </p>
+            <div class="icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                
+            </div>
+
+            <p>
+                Made by <i class="fa-solid fa-palette"></i> Jaimz With a Z
+            </p>
+          </section>
+
+           <!-- about us content -->
+
+
+
+    <!--script for font -->
+    <script src="https://kit.fontawesome.com/36d13bfee5.js" crossorigin="anonymous"></script>
+    <!-- js scripts -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

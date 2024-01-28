@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+
+            <div class="logo">
+                <a href="index.html"> <img src="images/afit-logo.png"></a>
+                <p>AFIT</p>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"> HOME</a></li>
+                    <li><a href="about.html"> ABOUT</a></li>
+                    <li><a href="courses.html"> COURSES</a></li>
+                    <li><a href="blog.html"> BLOG</a></li>
+                    <li><a href="contact.html"> CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certification and Online Programs for 2024</h1>
+    </section>
+        <!-- -------------------blog page section---------------- -->
+        <section class="blogcontent">
+            <div class="row">
+                <div class="blogleft">
+                    <img src="images/afitcampus1.png">
+                    <h2>Our Certification and Online Programs for 2024</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                       Quidem error sint corrupti eum labore atque placeat a voluptas, 
+                      optio corporis incidunt eius dicta sed beatae quos voluptate recusandae aut debitis?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore asperiores nulla rerum reprehenderit. Error soluta sed sunt eligendi illo voluptates veritatis sequi ex dolor quis iusto, officiis et molestiae pariatur.  
+                    </p><br>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt reiciendis, perspiciatis mollitia alias beatae ad provident vitae optio consequatur ipsa, rerum voluptas? Ullam alias quas necessitatibus adipisci praesentium facilis quos.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ab adipisci porro vitae. Quisquam dolorum accusantium aliquam a ipsam soluta quaerat molestias aut perferendis veniam, dignissimos sunt quod quibusdam obcaecati!
+                    </p> <br>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus deserunt veniam, facilis eaque cum et. Tenetur deserunt doloribus deleniti, reiciendis doloremque, explicabo magnam atque, totam accusantium culpa voluptate minus quae? Repellat praesentium eveniet esse eaque sapiente totam commodi dolores officiis? Quibusdam doloremque praesentium recusandae explicabo unde. Ut magni debitis odio modi labore?
+                    </p><br>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, inventore! Fuga eum consequatur, laudantium fugit numquam veritatis architecto tempore a, temporibus dolores quibusdam aliquam excepturi possimus dolorem animi sequi eos?
+                    </p>
+
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class = "comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter email">
+                            <textarea row="5" aria-placeholder="Your Comment"></textarea>
+                            <button type="submit" class = "hero-btn2">POST COMMENT</button>
+                        </form>
+                        
+                    
+                </div>
+            </div>
+
+                <div class="blogright">
+                    <h3>
+                        Post Categories
+                    </h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+
+                    <div>
+                        <span>Computer Science</span>
+                        <span>40</span>
+                    </div>
+
+                    <div>
+                        <span>Business Admin</span>
+                        <span>24</span>
+                    </div>
+
+                    <div>
+                        <span>Engineering</span>
+                        <span>19</span>
+                    </div>
+
+                    <div>
+                        <span>Mathematics</span>
+                        <span>20</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+            <!--------------------------- FOOTER----------------------->
+          <section class = "footer">
+            <h4>About US</h4>
+            <p>
+                We offer undergraduate and postgraduate programs in Engineering, science and technology fields relevant to the Nigerian Air Force.
+            </p>
+            <div class="icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                
+            </div>
+
+            <p>
+                Made by <i class="fa-solid fa-palette"></i> Jaimz With a Z
+            </p>
+          </section>
+
+           <!-- about us content -->
+
+
+
+    <!--script for font -->
+    <script src="https://kit.fontawesome.com/36d13bfee5.js" crossorigin="anonymous"></script>
+    <!-- js scripts -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

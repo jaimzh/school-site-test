@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+
+            <div class="logo">
+                <a href="index.html"> <img src="images/afit-logo.png"></a>
+                <p>AFIT</p>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"> HOME</a></li>
+                    <li><a href="about.html"> ABOUT</a></li>
+                    <li><a href="courses.html"> COURSES</a></li>
+                    <li><a href="blog.html"> BLOG</a></li>
+                    <li><a href="contact.html"> CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+        <!-- about us content -->
+        <section class = "about-us">
+            <div class="row">
+                <div class = about-column>
+                    <h1>One of NIgeria's top university</h1>
+                    <p>
+                        The Air Force Institute of Technology (AFIT) is a Nigerian military university established in 1976 to provide advanced technical training for officers of the Nigerian Air Force.
+                <br> Located in Kaduna, We offers undergraduate and postgraduate programs in Engineering, science and technology fields relevant to the Nigerian Air Force. 
+                <br>The institute is renowned for its high academic standards and its role in developing skilled personnel for the Nigerian Air Force and the broader Nigerian defense sector.
+            </P>
+        
+                    <a href="" class="hero-btn2">EXPLORE NOW</a>
+                </div>
+    
+                <div class = about-column>
+                    <img class = "afit-pic" src="images/AFITPIC.png">
+                </div>
+            </div>
+            
+        </section>
+
+            <!--------------------------- FOOTER----------------------->
+          <section class = "footer">
+            <h4>About US</h4>
+            <p>
+                We offer undergraduate and postgraduate programs in Engineering, science and technology fields relevant to the Nigerian Air Force. 
+                
+            </p>
+            
+            <div class="icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                
+            </div>
+
+            <p>
+                Made by <i class="fa-solid fa-palette"></i> Jaimz With a Z
+            </p>
+          </section>
+
+
+
+
+
+    <!--script for font -->
+    <script src="https://kit.fontawesome.com/36d13bfee5.js" crossorigin="anonymous"></script>
+    <!-- js scripts -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
